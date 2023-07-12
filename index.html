@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INDEX</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
 .headercontent{
     margin-right: 15px;
@@ -18,13 +19,15 @@
     color: #007185;
     text-transform: uppercase;
     text-decoration:none;
-    margin: 5px;
+   
+    margin:5px;
    
 
 }
 #main_bar{
 background-color:#996666;
 color: white;
+text-decoration: none;
 }
 #insta{
     /*background:linear-gradient(45DEG,#FD1D1D  ,#C12384,#E1306C,#405DE6,#5851DB,#833AB4);*/
@@ -39,7 +42,16 @@ background:linear-gradient(#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4)
 #facebook{
     color: rgb(59, 89, 152);
 }
+.navlist li{
+    display: inline-block;
+    margin-right: 35px;
+    
+}
+.ancordownload{
+    text-decoration: none;
+}
     </style>
+
 </head>
 <body>
     <header id="main_bar">
@@ -47,17 +59,21 @@ background:linear-gradient(#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4)
             <i class="fa fa-address-book" aria-hidden="true" id="header1"> </i><span class="headercontent">Amol Aldar</span>
             <i class="fa fa-phone-square" aria-hidden="true" id="header1"> </i><span class="headercontent">8291540763</span>
             <i class="fa fa-envelope" aria-hidden="true" id="header1"> </i><span class="headercontent">amol21.seo@gmail.com</span>
+            <a href="/assets/AMOLCV1.pdf" download="Resume" class="ancordownload"><span >Download</span></a>
         </div>
     </header>
     <br>
     <nav class="navigationtagdetails">
-        <a  href="home.html" target="selfInformations" class="navigationtags">Home</a>
-        <a href="techStack.html" target="selfInformations" class="navigationtags">TECH STACK</a>
-        <a href="project.html" target="selfInformations" class="navigationtags">Project</a>
-        <a href="educational.html" target="selfInformations" class="navigationtags">Eduacational</a>
+        <ul class="navlist">
 
-        <a href="about.html" target="selfInformations" class="navigationtags">About Me</a>
-        <a href="/assets/AMOLCV1.pdf" download="Resume" class="navigationtags">Download</a>
+        <li><a  href="home.html" target="selfInformations" class="navigationtags">Home</a></li>
+        <li><a href="techStack.html" target="selfInformations" class="navigationtags">TECH STACK</a></li>
+        <li><a href="project.html" target="selfInformations" class="navigationtags">Project</a></li>
+        <li><a href="educational.html" target="selfInformations" class="navigationtags">Eduacational</a></li>
+
+        <li><a href="about.html" target="selfInformations" class="navigationtags">About Me</a></li>
+        
+    </ul>
     </nav>
     <br>
     
